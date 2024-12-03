@@ -1,7 +1,6 @@
 [project]
 name = "package"
 version = "0.1.0"
-readme = "README.md"
 authors = [
     { name = "Charlie Marsh", email = "charlie.r.marsh@gmail.com" }
 ]
@@ -11,7 +10,7 @@ dependencies = [
 ]
 
 [tool.uv.workspace]
-members = ["./dynamic_dependency"]
+members = ["../dynamic_dependency"]
 
 [tool.uv.sources]
 dynamic-dependency = { workspace = true }

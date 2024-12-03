@@ -23,7 +23,7 @@ wheels = [
 [[package]]
 name = "dynamic-dependency"
 version = "1.0.0"
-source = { editable = "dynamic_dependency" }
+source = { editable = "../dynamic_dependency" }
 dependencies = [
     { name = "anyio" },
 ]
@@ -49,7 +49,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "dynamic-dependency", editable = "dynamic_dependency" }]
+requires-dist = [{ name = "dynamic-dependency", editable = "../dynamic_dependency" }]
 
 [[package]]
 name = "sniffio"
